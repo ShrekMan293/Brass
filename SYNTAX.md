@@ -23,7 +23,8 @@ Floating point values are approximate
 ### Operators
 Binary Or is not a real operator, it's '|', but markdown uses the pipe
 Logical or is '||'
-Compound operators not included
+Compound operators not included in this file but they do exist
+++, --, +=, *=, -=, /=, %=, |=, etc
 | Characters |     Usage     |
 |:----------:|:-------------:|
 | + | 3 + 4 |
@@ -34,12 +35,12 @@ Compound operators not included
 | = | i = 3 |
 | & (binary) | 3 & 2 |
 | or (binary) | 4 or 2 |
-| ~ (not) | 3 ~ 6 |
+| ~ (not (binary)) | 3 ~ 6 |
 | ^ (xor) | 4 ^ 2|
 | == | return i == 2|
 | and (logical) | if b && i == 2 |
 | or (logical) | if b or i == 2 |
-| ! | b : bool = !true |
+| ! (not(logical))| b : bool = !true |
 | => | 1 => print 1 |
 | * | c_function(*i) |
 #### Separators
