@@ -12,6 +12,10 @@ Zephyr is a statically typed, mostly JIT compiled language, some parts are AOT. 
 1. A zephyr is a light wind, I don't want this to be a big heavy language:: I want it to be lightweight and pretty easy to use
 2. Also a tribute to my hometown: New Orleans, New Orleans used to have a baseball team named the Zephyrs, hence Zephyr
 
+## File Extensions
+Source Code: *.zph                                                                                                                                                                        
+Compiled Files: *.zo
+
 ## Design
 While I was originally inspired by C#, [one amazing design][design_link] made me reconsider, so now the language is based on Rust, Go, and Zig, with a hint of C#
 
