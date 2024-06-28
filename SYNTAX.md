@@ -166,13 +166,13 @@ func hello() : i32 {
 }
 ```
 ##### Compile Time Functions
-Some functions need to be run with max precision
+Some functions need to be run with max precision                                                                                        
 Compile time functions allow them to be converted to binary during compilation to run faster at runtime
 - Could slow down compilation
 
 ```
 precomp func time() {
-    print std::time;
+    print extern time;
 }
 ```
 ##### Entry Function
@@ -238,8 +238,8 @@ time : u64 = extern func ctime();
 
 ***BUT***
 
-Back to unsafe code, all extern functions must be in an unsafe block
-Unsafe blocks are also compiled to binary, so they pretty much have a ```precomp``` before them
+Back to unsafe code, all extern functions must be in an unsafe block                                                                    
+Unsafe blocks are also compiled to binary, so they pretty much have a ```precomp``` before them                                         
 But although unsafe = precomp, precomp != unsafe
 
 #### Why is there unsafe code?
