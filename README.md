@@ -1,21 +1,19 @@
-![Failed to load logo](https://github.com/ShrekMan293/Zephyr/assets/112657471/d0e22ed9-7679-4ca0-90ac-3ec5680b3cbd "Zephyr Logo")
-# Zephyr
+
+# Brass
 ***RELEASE DATE TBD***                                                                                                                                                                    
-Zephyr is a statically typed, mostly JIT compiled language, some parts are AOT. Focused on ease of use and performance                                                                    
+Brass is a statically typed, mostly JIT compiled language, some parts are AOT. Focused on ease of use and performance                                                                    
 ***RELEASE DATE TBD***                                                                                                                                                                    
 
 [design_link]: https://gitlab.com/gempl/gemc/-/blob/main/DESIGN.md?ref_type=heads
-[syntax_link]: https://github.com/ShrekMan293/Zephyr/blob/main/SYNTAX.md
-[license_link]: https://github.com/ShrekMan293/Zephyr/blob/main/LICENSE
+[syntax_link]: https://github.com/ShrekMan293/Brass/blob/main/SYNTAX.md
+[license_link]: https://github.com/ShrekMan293/Brass/blob/main/LICENSE
 
 ## Name Origin
-**I named it Zephyr with two reasons in mind:**
-1. A zephyr is a light wind, I don't want this to be a big heavy language:: I want it to be lightweight and pretty easy to use
-2. Also a tribute to my hometown: New Orleans, New Orleans used to have a baseball team named the Zephyrs, hence Zephyr
+**I named it Brass because I originally wanted Zephyr, but there were some conflicts. So Brass was picked because of New Orleans, my hometown, having a love for jazz, many jazz instruments are made with *Brass***
 
 ## File Extensions
-Source Code: *.zph                                                                                                                                                                        
-Compiled Files: *.zo
+Source Code: *.bs (Brass Source)                                                                                                                                                                        
+Compiled Files: *.bo (Brass Object)
 
 ## Design
 While I was originally inspired by C#, [one amazing design][design_link] made me reconsider, so now the language is based on Rust, Go, and Zig, with a hint of C#
@@ -24,10 +22,10 @@ While I was originally inspired by C#, [one amazing design][design_link] made me
 The full syntax can be found [here][syntax_link]
 
 ## Installation (TBD)
-Zephyr is currently in development and cannot be installed
+Brass is currently in development and cannot be installed
 
 ## Usage (TBD)
-Zephyr is currently in development and cannnot be installed
+Brass is currently in development and cannnot be installed
 
 ## Examples
 Examples can also be found in the [syntax file][syntax_link]
