@@ -91,8 +91,10 @@ Compound operators not included in this file but they do exist
 | in | ```foreach i16 in iden```|
 | lock | ```lock i : i8 = 12```|
 | macro| ```macro assign (code)```|
+| mod | ```mod Color of Animal```|
 | new | ```new cast<i64>()```|
 | null | ```i = null```|
+| of | ```trait Color of Animal```|
 | or | ```if b or i == 2```|
 | packed | Example below |
 | precomp | ```precomp func test() : u8```|
@@ -125,8 +127,8 @@ impl Animal {
     }
 };
 
-trait Color of Animal { # of is the keyword that defines the parent of the trait
-    # A trait is like a child class, a parent can have as many traits as it wants
+mod Color of Animal { # of is the keyword that defines the parent of the mod
+    # A mod is like a child class, a parent can have as many mods as it wants
     u8 alpha
     u8 red
     u8 green
@@ -141,7 +143,7 @@ trait Color of Animal { # of is the keyword that defines the parent of the trait
 
 lock bear : Animal = Animal("Bear", 0); # Makes bear immutable
 
-func testTrait() {
+func testMod() {
     bear::Color::getColor();
 }
 ```
