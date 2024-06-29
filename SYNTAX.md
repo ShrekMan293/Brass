@@ -28,7 +28,7 @@ Floating point values are approximate
 Binary Or is not a real operator, it's '|', but markdown uses the pipe
 Logical or is '||'
 Compound operators not included in this file but they do exist
-++, --, +=, *=, -=, /=, %=, |=, etc
+Binary Operator combined with '=' gives you a compound operator
 | Characters |     Usage     |
 |:----------:|:-------------:|
 | + | 3 + 4 |
