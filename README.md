@@ -1,7 +1,8 @@
+![Failed to load logo](https://github.com/ShrekMan293/Zephyr/assets/112657471/d0e22ed9-7679-4ca0-90ac-3ec5680b3cbd "Zephyr Logo")
 # Zephyr
-***RELEASE DATE TBD*** |
-Zephyr is a statically typed, mostly JIT compiled language, some parts are AOT. Focused on ease of use and performance
-| ***RELEASE DATE TBD***
+***RELEASE DATE TBD***                                                                                                                                                                    
+Zephyr is a statically typed, mostly JIT compiled language, some parts are AOT. Focused on ease of use and performance                                                                    
+***RELEASE DATE TBD***                                                                                                                                                                    
 
 [design_link]: https://gitlab.com/gempl/gemc/-/blob/main/DESIGN.md?ref_type=heads
 [syntax_link]: https://github.com/ShrekMan293/Zephyr/blob/main/SYNTAX.md
