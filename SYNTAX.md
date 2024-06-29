@@ -1,4 +1,8 @@
 ## Syntax
+[syntax_link]: https://gitlab.com/gempl/gemc/-/blob/main/DESIGN.md?ref_type=heads
+Inspiration is mostly from Rust, Go, Zig, and C#                                                                                        
+Lots of the syntax is inspired by [GemPL][syntax_link]
+
 ### Types
 Floating point values are approximate
 | Type Name | Min Value to Max Value | Example Usage |
