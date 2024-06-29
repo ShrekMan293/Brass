@@ -146,6 +146,7 @@ mod Color of Animal { # of is the keyword that defines the parent of the mod
 };
 
 lock bear : Animal = Animal("Bear", 0); # Makes bear immutable
+lock voidIden : void = null; # Void is a unit type, meaning it can be assigned a value, but only 'null'
 
 func testMod() {
     bear::Color::getColor();
