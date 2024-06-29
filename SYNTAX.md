@@ -230,7 +230,7 @@ switch (op) {
 
 ### Unsafe Code
 #### External Functions
-If you want to use code that isn't supported in Zephyr, I bring you external functions
+If you want to use code that isn't supported in Brass, I bring you external functions
 
 Using the ```extern``` keyword, you can access linked C/C++ functions
 
