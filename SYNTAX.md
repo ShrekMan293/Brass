@@ -133,8 +133,8 @@ impl Animal {
     }
 };
 
-mod Color of Animal { # of is the keyword that defines the parent of the mod
-    # A mod is like a child class, a parent can have as many mods as it wants
+mod Color of Animal { ## of is the keyword that defines the parent of the mod
+    ## A mod is like a child class, a parent can have as many mods as it wants
     u8 alpha
     u8 red
     u8 green
@@ -147,8 +147,8 @@ mod Color of Animal { # of is the keyword that defines the parent of the mod
     }
 };
 
-lock bear : Animal = Animal("Bear", 0); # Makes bear immutable
-lock voidIden : void = null; # Void is a unit type, meaning it can be assigned a value, but only 'null'
+lock bear : Animal = Animal("Bear", 0); ## Makes bear immutable
+lock voidIden : void = null; ## Void is a unit type, meaning it can be assigned a value, but only 'null'
 
 func testMod() {
     bear::Color::getColor();
@@ -185,7 +185,7 @@ precomp func time() {
 }
 ```
 ##### Entry Function
-The program needs to enter somewhere, if no entry is specified it may not run correctly
+The program needs to enter somewhere, if no entry is specified it may not run correctly, will enter from the top of code
 
 ```
 entry {
