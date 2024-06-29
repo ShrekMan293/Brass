@@ -1,3 +1,4 @@
+![Failed to load logo](https://github.com/ShrekMan293/Brass/assets/112657471/c8519262-814a-466d-a3f2-10037d1915ba)
 
 # Brass
 ***RELEASE DATE TBD***                                                                                                                                                                    
