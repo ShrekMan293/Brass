@@ -168,6 +168,7 @@ func hello() : i32 {
 }
 ```
 ##### Compile Time Functions
+Seems there might be some misunderstanding with 'precomp'. Precomp means pre-compile, not pre-compute. The file is translated to binary before runtime so that there is max speed during runtime, instead of going through the JIT compiler
 Some functions need to be run with max precision                                                                                        
 Compile time functions allow them to be converted to binary during compilation to run faster at runtime
 - Could slow down compilation
