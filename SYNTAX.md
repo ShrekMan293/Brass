@@ -103,7 +103,6 @@ Compound operators not included in this file but they do exist
 | packed | Example below |
 | precomp | ```precomp func test() : u8```|
 | print | ```print i```|
-| spread | Example below |
 | switch | Example below |
 | try | ```try {```|
 | type | Example below |
@@ -153,13 +152,9 @@ func testMod() {
 }
 ```
 #### Type Declaration Modifiers, confusing name but not to be confused with Variable Modifiers
-Specifically ```packed``` and ```spread```
+Specifically ```packed```
 ##### Packed
 Packed has 0 padding and puts everything as close as possible
-##### Spread
-Spread has two usages, spread it out as much as the compiler feels is necessary, probably 2 bytes in between each variable and however many at the end
-**OR**
-```spread(size)``` Spreads it evenly to the specified size
 
 #### Functions
 Declare a function with the syntax ```func iden(args) : type```
