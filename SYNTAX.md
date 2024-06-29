@@ -18,7 +18,7 @@ Floating point values are approximate
 | f64       | -1.7976931348623157 × 10^308 to 1.7976931348623157 × 10^308 | ```iden : f64 = 382.2930```|
 | i64       | -9223372036854775808 to 9223372036854775807| ```iden : i64 = 20```|
 | u64       | 0 to 18446744073709551615 | ```iden : u64 = 2994```|
-| let       | '\0' to '\255'          | ```iden : let = 'J'```|
+| char       | '\0' to '\255'          | ```iden : char = 'J'```|
 | list      | Only limit is memory    | ```iden : list = list::create()```|
 | string    | Only limit is memory    | ```iden : string = "Hello World!"```|
 | type      | Depends on the declaration   | More data below |
