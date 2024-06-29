@@ -3,6 +3,8 @@
 Inspiration is mostly from Rust, Go, Zig, and C#                                                                                        
 Lots of the syntax is inspired by [GemPL][syntax_link]
 
+Just realized I was very inconsistent with comments, working on it
+
 ### Types
 Floating point values are approximate
 | Type Name | Min Value to Max Value | Example Usage |
